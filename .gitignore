@@ -41,3 +41,14 @@ app-example
 # generated native folders
 /ios
 /android
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Expo shared state folder (if it exists)
+.expo-shared/
+
+# Optional: EAS build artifacts
+.expo-dev/
+build/
