@@ -1,51 +1,41 @@
-# Welcome to your Expo app 👋
+# 🌿 In My Feelz  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A calming iOS mood tracker built with Expo & React Native — helping users **notice, name, and reflect on emotions** through quick daily check-ins, journaling, and gentle affirmations.  
 
-## Get started
+---
 
-1. Install dependencies
+## 🧭 Project Overview  
 
-   ```bash
-   npm install
-   ```
+**Goal:** Build a simple, private, and soothing space for users to express emotions and track patterns over time.  
 
-2. Start the app
+### ✨ Features (MVP)
+- 🪷 **One-Tap Mood Check-In** – 6–8 mood tiles for quick emotional logging.  
+- 💬 **Emotion Helper** – Suggests related emotions when users feel unsure.  
+- 🧠 **Journal (Mic-to-Text)** – Speak or type short reflections (280 chars max).  
+- 🌞 **Daily Affirmations** – 30 randomized messages to inspire emotional awareness.  
+- 📈 **Mood History** – Visual 7–30 day patterns for reflection.  
+- 🔔 **Reminders** – Gentle notifications at 9 AM / 9 PM (customizable).  
+- 🔒 **Privacy First** – All data stored offline, Face ID optional.  
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## ⚙️ Tech Stack  
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+| Category | Tools |
+|-----------|--------|
+| Framework | [Expo](https://expo.dev/) + [React Native](https://reactnative.dev/) |
+| Architecture | MVVM |
+| Language | JavaScript / TypeScript |
+| Design | Figma (Retro-modern theme: Teal + Burnt Orange) |
+| Storage | Core Data / SQLite (Offline) |
+| Notifications | iOS Local Notifications |
+| Accessibility | Dynamic Type + VoiceOver |
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🚀 Getting Started  
 
-When you're ready, run:
-
+### 1️⃣ Clone the Repository
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-"> Status OK ?" 
+git clone https://github.com/porfijr/InMyFeelz.git
+cd InMyFeelz
